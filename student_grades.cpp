@@ -63,9 +63,7 @@ double median(std::vector<double> vec)
     std::nth_element(vec.begin(), vec.begin() + mid, vec.end());
 
     if(size % 2 == 0){
-        auto nth = vec[mid];
-        std::nth_element(vec.begin(), vec.begin() + mid - 1, vec.end());
-        return (nth + vec[mid - 1]) / 2.0;
+        return (vec[mid] + std::max_element(vec.begin(), vec.begin() + mid)) / 2.0;
     }
     else{
         return vec[mid];
