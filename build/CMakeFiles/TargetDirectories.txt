@@ -1,0 +1,3 @@
+C:/Users/cathe/OneDrive/Desktop/LSU Undergrad/Semester 4/CSC 3380/StudentGrades/build/CMakeFiles/student_grades.dir
+C:/Users/cathe/OneDrive/Desktop/LSU Undergrad/Semester 4/CSC 3380/StudentGrades/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/cathe/OneDrive/Desktop/LSU Undergrad/Semester 4/CSC 3380/StudentGrades/build/CMakeFiles/ZERO_CHECK.dir

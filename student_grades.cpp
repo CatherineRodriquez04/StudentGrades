@@ -1,3 +1,9 @@
+/*
+Catherine Rodriquez
+CSC 3380
+std::nth_element practice
+*/
+
 
 #include <algorithm>
 #include <fstream>
@@ -51,7 +57,8 @@ double median(std::vector<double> vec)
     if (size == 0)
         throw std::domain_error("std::vector is empty, median undefined");
 
-    sort(vec.begin(), vec.end());
+    std::nth_element(vec.begin(), vec.begin() + vec.size() / 2, vec.end()); //implemented with nth_element
+    //sort(vec.begin(), vec.end());
     auto mid = size / 2;
     return size % 2 == 0 ? (vec[mid] + vec[mid - 1]) / 2 : vec[mid];
 }
